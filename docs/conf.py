@@ -15,3 +15,11 @@ exclude_patterns = ['_build']
 html_theme = 'alabaster'
 
 html_static_path = []
+
+# Clutter
+
+from sphinx_clutter import github_repo_url_format
+
+clutter_index_path = ''
+clutter_src_root = '..'
+clutter_repo_url_format = github_repo_url_format('cluttercode', 'sphinx-clutter')
