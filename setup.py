@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="sphinx-clutter",
-    version="0.0.1",
+    version="0.0.2",
     author="Itay Donanhirsh",
     author_email="itay.donanhirsh@checkr.com",
     description="Sphinx Clutter plugin",

@@ -113,7 +113,7 @@ def setup(app):
     app.add_role('clutter', _make_clutter_role(app))
 
     return {
-        'version': '0.0.1',
+        'version': '0.0.2',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
